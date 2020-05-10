@@ -1,2 +1,2 @@
-const {href, search, searchParams} = location.href;
+const {href, search, searchParams} = new URL(location.href);
 console.log(href, search, searchParams)
