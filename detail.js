@@ -4,4 +4,4 @@ let uid = getId(search);
 console.log(uid);
 function getId() {
   return search.slice(4)
-}
+};

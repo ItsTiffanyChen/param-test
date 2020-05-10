@@ -9,7 +9,12 @@
   <h1>Home</h1>
   <a href="./detail.html?id=one">Go to detail 1</a>
   <a href="./detail.html?id=two">Go to detail 2</a>
+  <div id="app">
+    <h1>Vue test</h1>
+    <test v-for="page of pages" :page="page"></test>
+  </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="./index.js"></script>
-</body>
+  
 </html>
