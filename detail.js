@@ -1,2 +1,2 @@
-let url = location.href;
-console.log(url)
+const {href, search, searchParams} = location.href;
+console.log(href, search, searchParams)
